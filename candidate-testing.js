@@ -31,11 +31,8 @@ function askQuestion() {
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-if(candidateAnswer === correctAnswer){
-  console.log('\nCorrect!');
-}else{
-  console.log('\nIncorrect');
-}
+  console.log(`\nQuestion 1: ${questions[0]}\nYour answer: ${candidateAnswers[0]}\nCorrect answer: ${correctAnswers[0]}\nQuestion 2: ${questions[1]}\nYour answer: ${candidateAnswers[1]}\nCorrect answer: ${correctAnswers[1]}\nQuestion 3: ${questions[2]}\nYour answer: ${candidateAnswers[2]}\nCorrect answer: ${correctAnswers[2]}\nQuestion 4: ${questions[3]}\nYour answer: ${candidateAnswers[3]}\nCorrect answer: ${correctAnswers[3]}\nQuestion 5: ${questions[4]}\nYour answer: ${candidateAnswers[4]}\nCorrect answer: ${correctAnswers[4]}`)
+  
 
 
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
